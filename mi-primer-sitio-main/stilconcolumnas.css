@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(248, 230, 214);
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: lightcoral;
+    font-style: oblique;
+    font-size: 60px;
+}
+
+.botonera {
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+main.contenedor {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* FOTO + PRESENTACIÓN */
+.presentacion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto-presentacion p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* EDUCACIÓN EN 3 COLUMNAS */
+.educacion {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.edu-item {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.edu-item h3 {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* EXPERIENCIA + PROGRAMAS + HOBBIES EN 3 COLUMNAS */
+.info-final {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-item {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.info-item h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.info-item ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+}
